@@ -26,10 +26,10 @@ float servoEndPosition = 180.0;
 int dmxLastServoValue = -128;
 
 //Define thresholds for keyboard data
-char dmxValueLeftKeyCode = KEY_LEFT_ARROW;
+char dmxValueLeftKeyCode = KEY_PAGE_UP;
 int dmxValueLeftMin = 32;
 int dmxValueLeftMax = 96;
-char dmxValueRightKeyCode = KEY_RIGHT_ARROW;
+char dmxValueRightKeyCode = KEY_PAGE_DOWN;
 int dmxValueRightMin = 160;
 int dmxValueRightMax = 192;
 int dmxLastKeyboardValue = 0;
